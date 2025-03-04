@@ -1,21 +1,60 @@
-.logo{
-    width: 65px;
+.logo {
+    width:100px;
 }
-header{
+hearder{
     text-align: center;
 }
-
 nav li{
-    display: inline;
-    padding: 60px;
-    font-size: 20px;
+    display: inline; 
+    padding: 60px 
+    font-size: 25px 
 }
-
 nav a{
     text-decoration: none;
-    color:black;
+    color: black;
 }
-
 nav a:hover{
     text-decoration: underline;
+}
+main{
+    background-color: aliceblue;
+    color: black;
+}
+.welcome{
+    padding: 20px;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.courses{
+    padding: 30px;
+}
+p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+.welcome h1, .courses h2 {
+    color: blue;
+}
+.infoCurso img{
+    width: 225px;
+    float: left;
+    margin-right: 30px;
+}
+.infoCurso{
+    overflow: auto;
+    margin-bottom: 30px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: lightgray;
+}
+.image{
+    width: 600px;
+    border:  solid salmon;
 }
